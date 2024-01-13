@@ -1,0 +1,69 @@
+h1.title {
+  background-color: lightsteelblue;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+h2.author {
+  text-align: right;
+}
+
+p.image {
+  text-align: center;
+}
+
+p.image img {
+  width: 860px;
+}
+
+a:link {
+  color: purple;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: skyblue;
+}
+
+a:active {
+  color: red;
+}
+
+div.content {
+  margin: 0 auto;
+  width: 860px;
+}
+
+p.copyright {
+  text-align: center;
+}
+
+
+hr {
+  border: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+hr.separator {
+  border-top: 3px dotted lightsteelblue;
+
+}
+
+ul.books {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+li.book {
+  background-color: lightsteelblue;
+  color: white;
+  margin-right: 10px;
+  padding: 10px;
+}
